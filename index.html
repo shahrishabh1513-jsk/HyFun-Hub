@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HyFun Foods - Premium Frozen Snacks</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <div class="logo-img">
+                    <i class="fas fa-fire"></i>
+                </div>
+                <div class="logo-text">
+                    <h1>Hy<span>Fun</span> Foods</h1>
+                    <p>FROZEN DELIGHTS</p>
+                </div>
+            </div>
+            
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#products" class="nav-link">Products</a></li>
+                <li><a href="#top-selling" class="nav-link">Top Sellers</a></li>
+                <li><a href="#unic" class="nav-link">Unic Products</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <div class="hero-badge">PREMIUM FROZEN SNACKS</div>
+            <h1 class="hero-title">Taste the <span>HyFun</span> Difference</h1>
+            <p class="hero-subtitle">Discover our wide range of delicious frozen snacks, from crispy French fries to exotic ethnic specialties. Perfect for any occasion!</p>
+            <a href="#products" class="btn-hero">Explore Products <i class="fas fa-arrow-down"></i></a>
+        </div>
+        
+        <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1571091718767-18b5b1457add?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="HyFun Foods Products">
+        </div>
+    </section>
+
+    <!-- Filter Section -->
+    <section class="filter-section" id="products">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Product Range</h2>
+                <p>Filter by category to find your favorite HyFun snacks</p>
+            </div>
+            
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All Products</button>
+                <button class="filter-btn" data-filter="french-fries">French Fries</button>
+                <button class="filter-btn" data-filter="potato-wedges">Potato Wedges</button>
+                <button class="filter-btn" data-filter="veggie">Veggie Specialties</button>
+                <button class="filter-btn" data-filter="indian">Indian Ethnic</button>
+                <button class="filter-btn" data-filter="baked">Baked Snacks</button>
+                <button class="filter-btn" data-filter="unic">Unic Products</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Grid -->
+    <section class="products-section">
+        <div class="container">
+            <div class="products-grid" id="productsGrid">
+                <!-- Products will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Top Selling Section -->
+    <section class="top-selling-section" id="top-selling">
+        <div class="container top-selling-container">
+            <div class="section-header">
+                <h2>Top 5 Selling Products</h2>
+                <p>Our customers' favorites! Try these bestselling HyFun snacks</p>
+            </div>
+            
+            <div class="top-selling-cards">
+                <!-- Top selling cards will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Unic Products Section -->
+    <section class="unic-section" id="unic">
+        <div class="container">
+            <div class="unic-header">
+                <h2>Our <span>Unic</span> Products</h2>
+                <div class="unic-tag">Exclusive to HyFun</div>
+            </div>
+            
+            <div class="products-grid" id="unicGrid">
+                <!-- Unic products will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About HyFun Foods</h2>
+                <p>Our journey from humble beginnings to a global brand</p>
+            </div>
+            
+            <div class="about-container">
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="HyFun Factory">
+                </div>
+                
+                <div class="about-content">
+                    <h2>Our <span>Journey</span></h2>
+                    <p>In 1962, the first generation of entrepreneurs at M/s. Asandas & Sons began the trading of Potatoes and Onions. The second generation further expanded the business and by November 2015, the third generation, Mr. Haresh Karamchandani set up HyFun to produce a variety of delicacies such as French Fries, Burger Patties, Cheese Poppers etc. In a short span of 5 years HyFun became one of the most valued B2B player, catering to leading global QSR brands.</p>
+                    
+                    <p>HyFun is a proud contributor to the 'Make in India' initiative. Today we export our products to more than 45 countries across the globe. We can proudly claim that we are an 'Indian Company with Global Standards'.</p>
+                    
+                    <p>Our persistent passion for delivering international quality food has brought us even closer to our consumers. Having successfully launched our products in the retail market, we are now expanding our presence on B2C platforms. We aim to democratize our delicacies, which are made from international quality ingredients and suited to the Indian palate.</p>
+                    
+                    <div class="about-timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-year">1962</div>
+                            <p class="timeline-text">First generation begins trading Potatoes and Onions</p>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-year">2015</div>
+                            <p class="timeline-text">HyFun established by third generation entrepreneur Mr. Haresh Karamchandani</p>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-year">2020</div>
+                            <p class="timeline-text">Became a leading B2B player exporting to 45+ countries worldwide</p>
+                        </div>
+                    </div>
+                    
+                    <p style="font-weight: 600; margin-top: 20px; color: #ff6b35;">A JOURNEY OF CREATING PREMIUM AND SUPERIOR QUALITY SNACKS</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Experience HyFun Foods?</h2>
+                <p>Join thousands of satisfied customers who choose HyFun for quality, taste, and convenience. Order now for your home or business!</p>
+                <a href="#contact" class="btn-cta">Contact Us Today</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>HyFun Foods</h3>
+                    <ul>
+                        <li>Premium Frozen Snacks</li>
+                        <li>Since 2010</li>
+                        <li>ISO Certified</li>
+                        <li>FSSAI Approved</li>
+                    </ul>
+                    
+                    <div class="social-icons">
+                        <h3>Follow Us</h3>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Product Categories</h3>
+                    <ul>
+                        <li><a href="#products" data-filter="french-fries">French Fries</a></li>
+                        <li><a href="#products" data-filter="potato-wedges">Potato Wedges</a></li>
+                        <li><a href="#products" data-filter="veggie">Veggie Specialties</a></li>
+                        <li><a href="#products" data-filter="indian">Indian Ethnic</a></li>
+                        <li><a href="#products" data-filter="baked">Baked Snacks</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#top-selling">Top Sellers</a></li>
+                        <li><a href="#unic">Unic Products</a></li>
+                        <li><a href="#about">About Us</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Contact Us</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Food Street, Mumbai</li>
+                        <li><i class="fas fa-phone"></i> +91 9876543210</li>
+                        <li><i class="fas fa-envelope"></i> info@hyfunfoods.com</li>
+                        <li><i class="fas fa-clock"></i> Mon-Sat: 9AM-6PM</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 HyFun Foods. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms & Conditions</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Cart Notification -->
+    <div class="cart-notification" id="cartNotification">
+        <i class="fas fa-check-circle"></i>
+        <span>Product added to cart!</span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
